@@ -8,7 +8,7 @@ public class Mysqldbdriver {
 
         String url = "jdbc:mysql://localhost:3306/project";
         String user = "admin";
-        String password = "Ssc250799&";
+        String password = "Hiistahak123&";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");

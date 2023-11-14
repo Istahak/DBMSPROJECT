@@ -21,6 +21,6 @@ public class Main {
 
         MedicineDetails medicineDetails=new MedicineDetails(mysql.connection);
         medicineDetails.showAllMedicineDetails();
-        medicineDetails.addMedicineDetails();
+//        medicineDetails.addMedicineDetails();
     }
 }
