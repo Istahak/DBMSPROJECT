@@ -19,8 +19,16 @@ public class Main {
 //        medicine.addMedicine();
 
 
-        MedicineDetails medicineDetails=new MedicineDetails(mysql.connection);
-        medicineDetails.showAllMedicineDetails();
+//        MedicineDetails medicineDetails=new MedicineDetails(mysql.connection);
+//        medicineDetails.showAllMedicineDetails();
 //        medicineDetails.addMedicineDetails();
+//        Suppliers suppliers=new Suppliers(mysql.connection);
+//        System.out.println(suppliers.findOrCreateSupplier(1723423523).getSupplierId());
+//        Purchases purchases =new Purchases(mysql.connection);
+//        purchases.addPurchaseFromUserInput();
+
+        MedicineStorage medicineStorage=new MedicineStorage(mysql.connection);
+        medicineStorage.showAllMedicineStorage();
+
     }
 }
